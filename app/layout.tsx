@@ -12,6 +12,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Mathieu Thiry | Personal Portfolio",
   description: "I'am a front-end engineer with 3 years of experience.",
+  icons: {
+    icon: "./icon/favicon-32x32.png",
+  },
 };
 
 export default function RootLayout({
@@ -21,6 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 `}
       >

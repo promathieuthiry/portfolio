@@ -8,6 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
+import { josefinSans } from "../app/font";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -61,7 +62,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold ">
+        <span className={`font-bold ${josefinSans.className}`}>
           Hey there, I'm{" "}
           <span className="bg-gradient-to-r from-[#676394] to-[#946263] dark:from-[#c0b9f8] dark:to-[#c1adae] text-transparent bg-clip-text">
             Mathieu Thiry

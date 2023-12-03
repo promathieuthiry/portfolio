@@ -2,7 +2,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 export default function Footer() {
   return (
-    <footer className="w-full px-4 m-4 mx-auto border-gray-700 rounded-lg shadow dark:border-t dark:bg-gray-900 ">
+    <footer className="w-full px-4 m-4 mx-auto border-t shadow border-slate-200 dark:border-gray-700">
       <div className="w-full p-4 mx-auto md:py-8 max-w-[70rem]">
         <div className="sm:flex sm:items-center sm:justify-between">
           <p className="self-center mb-4 sm:mb-0">

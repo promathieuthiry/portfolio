@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Front-End Engineer",
     company: "api.video",
     description:
-      "I was actively engaged in the development of new features using a tech stack that included React, Next.js, tailwindcss, and typescript. I also took charge of constructing reusable components, which were then exhibited on storybook. Moreover, I adeptly translated designs and wireframes into high-quality code using figma. Collaborating on the company's dashboard project, I integrated industry best practices to ensure responsiveness, performance, maintainability, and scalability.",
+      "🌐 Full website design for the company, incorporating best SEO practices, resulting in notable growth in organic traffic.<br /> 🚀 Development of new features for the dashboard using React, Next.js, Tailwind CSS, and TypeScript.<br /> 🔧 Creation of reusable components and showcasing them through Storybook.<br /> 🎨 Transformation of designs and mockups into high-quality code using Figma.<br /> 👥 Collaboration on the company's dashboard, integrating best practices to ensure responsiveness, performance, maintainability, and scalability.<br />💡 Creation of demos and plugins for Strapi, highlighting the product's features.<br />📚 Documentation of these achievements through blog articles, stimulating the acquisition of new clients.",
     icon: React.createElement(CgWorkAlt),
     date: "2021-2023",
   },
@@ -55,7 +55,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     company: "Hubup",
     description:
-      "I actively contributed to the migration of the complete front-end codebase. This involved constructing essential features such as chat functionality, file storage, forms, and a contact list. Additionally, I ensured seamless integration by adapting the code to align with both the desktop application, built with <b>React</b>, and the mobile application, developed with React Native.",
+      "🔄 Active participation in the redesign of the dashboard from scratch with react, ensuring better performance.<br /> 🌐 Creation of new key features such as interactive map visualization, real-time chat, and file storage.<br />📱 Adapting web code (React) to the mobile application (React Native), thereby offering a consistent experience across different platforms.",
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
   },
